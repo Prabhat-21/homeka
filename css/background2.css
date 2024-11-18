@@ -1,0 +1,55 @@
+.heading-21 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30.2px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.sent-on-your {
+  position: relative;
+  line-height: 20.1px;
+  flex-shrink: 0;
+}
+.horizontal-divider {
+  align-self: stretch;
+  height: 1.5px;
+  position: relative;
+  background: linear-gradient(90deg, #aaa, #f4f4f4);
+  flex-shrink: 0;
+}
+.horizontal-divider-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 9.4px 0 0;
+  box-sizing: border-box;
+  min-width: 127px;
+}
+.background2,
+.horizontal-divider-wrapper,
+.sent-on-your-phone-number-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sent-on-your-phone-number-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 4.3px;
+  font-size: var(--font-size-base);
+}
+.background2 {
+  width: 436px;
+  background-color: var(--color-darkslateblue-100);
+  max-width: 100%;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-6xl) 44.2px;
+  box-sizing: border-box;
+  gap: 9.1px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-source-sans-pro);
+}
